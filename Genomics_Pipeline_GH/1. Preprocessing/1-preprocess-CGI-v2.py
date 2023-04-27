@@ -152,7 +152,7 @@ def build_vcf_df(cgi_df):
 
     
 def save_file(df, input_file_path, output_path):
-    #Save processed file as a 23andMe-like .txt file
+    #Save processed file as a .vcf file
 
     build = get_header_build(input_file_path)
     new_header = ['fileformat=VCFv4.2',
