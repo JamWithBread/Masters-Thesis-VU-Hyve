@@ -67,17 +67,12 @@ def write_vcf(file, header, df, output_dir):
 	df.to_csv(r'{}'.format(out_path), header=False, index=None, sep='\t', mode='a')
 
 
-	
-
-
 def post_process_vcf(file, temp_dir, output_dir):
 	fpath = os.path.join(temp_dir,file+".vcf")
 
 	header, df = read_23andMe(fpath)
 	df = filter_vcf_df(df)
 	write_vcf(file, header, df, output_dir)
-
-
 
 
 def main():
