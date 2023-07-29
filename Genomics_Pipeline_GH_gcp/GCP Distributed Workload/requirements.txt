@@ -1,0 +1,7 @@
+pandas
+numpy
+pyyaml
+google-cloud-storage
+google-cloud-pubsub
+fsspec
+gcsfs
