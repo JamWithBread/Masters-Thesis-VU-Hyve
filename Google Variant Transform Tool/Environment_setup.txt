@@ -1,0 +1,41 @@
+Environment setup:
+
+Create environment in project directory:
+	- pipenv shell --python /Users/jerenolsen/opt/anaconda3/bin/python
+
+Install gcloud cli:
+	- gcloud.google.com/sdk/docs/install
+	- open zip
+	- ./google-cloud-sdk/install.sh
+	- ./google-cloud-sdk/bin/gcloud init
+		- Enter responses to configuration prompts (zone europe-west4-a)
+		Note: .boto config file created at /Users/jerenolsen/.boto
+
+Add gcloud to path:
+	- export PATH=$PATH:./google-cloud-sdk/bin
+
+Provide user credentials:
+	- gcloud auth application-default login
+
+Enable APIs per: https://github.com/googlegenomics/gcp-variant-transforms
+
+In google cloud shell:
+	- export GOOGLE_CLOUD_LOCATION=europe-west4
+
+Create new BigQuery dataset under your project on GCP
+
+Create an empty table, use the tablename in the shell script created in the next step
+
+Make sure docker daemon is running
+
+Get latest variant transform docker image, configure and run 
+	- docker pull gcr.io/cloud-lifesciences/gcp-variant-transforms
+	- create shell scrip to run pipeline with docker per: https://github.com/googlegenomics/gcp-variant-transforms (or) (https://github.com/googlegenomics/gcp-variant-transforms/blob/master/docs/Variant_Transforms_and_BigQuery.pdf)
+	- run the script
+
+.
+
+
+
+
+
