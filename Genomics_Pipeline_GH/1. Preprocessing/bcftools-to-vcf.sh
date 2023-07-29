@@ -1,1 +1,0 @@
-bcftools convert --tsv2vcf ../input_genomes/huF80F84_23andMe_RawData.txt -f reference_assembly/Homo_sapiens.GRCh37.dna.primary_assembly.fa.gz -s NA00001 -Ov -o temp/huF80F84_23andMe_RawData.vcf
