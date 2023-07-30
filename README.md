@@ -10,13 +10,16 @@ Jeren Olsen
 |Name|Version|Reference|
 | --- | --- | --- |
 | Google Cloud SDK | 437.0.1 | https://cloud.google.com/sdk |
+| Google Cloud Life Sciences API | v2beta | https://cloud.google.com/life-sciences/docs/reference/rest |
+| Variant Transform Tool | 0.11.0 | https://github.com/googlegenomics/gcp-variant-transforms |
+| Google BigQuery | 2.30.1 | https://cloud.google.com/bigquery/docs/release-notes |
 | PRSice2 | 2.2.3 | https://choishingwan.github.io/PRS-Tutorial/prsice/ |
 | BCFTools | 1.18 | https://www.htslib.org/download/ |
 | SAMTools | 1.18 | https://www.htslib.org/download/ |
 | Beagle 5.4 | 5.4 | http://faculty.washington.edu/browning/beagle/beagle.html |
 | GATK Picard | 4.0.2.0 | https://gatk.broadinstitute.org/hc/en-us/articles/360037060932-LiftoverVcf-Picard- |
 | Plink | 1.90p | https://plink.readthedocs.io/en/latest/ |
-| Variant Transform Tool | 0.11.0 | https://github.com/googlegenomics/gcp-variant-transforms |
+
 #### OHDSI 
 |Name|Version|Reference|
 | --- | --- | --- |
