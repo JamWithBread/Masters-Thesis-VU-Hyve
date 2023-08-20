@@ -12,7 +12,7 @@ Jeren Olsen
 | Google Cloud SDK | 437.0.1 | https://cloud.google.com/sdk |
 | Google Cloud Life Sciences API | v2beta | https://cloud.google.com/life-sciences/docs/reference/rest |
 | Variant Transform Tool | 0.11.0 | https://github.com/googlegenomics/gcp-variant-transforms |
-| Google Cloud Platform (Bucket, Compute Engine, etc) | versions as of July 21 | https://cloud.google.com/release-notes |
+| Google Cloud Platform (Bucket, Compute Engine, etc) | As of July 21 release | https://cloud.google.com/release-notes |
 | PRSice2 | 2.2.3 | https://choishingwan.github.io/PRS-Tutorial/prsice/ |
 | BCFTools | 1.18 | https://www.htslib.org/download/ |
 | SAMTools | 1.18 | https://www.htslib.org/download/ |
