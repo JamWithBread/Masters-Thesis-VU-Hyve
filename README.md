@@ -1,5 +1,5 @@
 # Master's Thesis
-### _Bridging Observational Health Data and Genomics: The Utility of Combining the OMOP CDM with Modern Genomics Tools_
+### _OMOP CDM-Enabled Genomics Exploration: Unveiling Population Structure and PRS Associations from the Harvard Personal Genome Project_
 Jeren Olsen
 #
 #
