@@ -1,6 +1,10 @@
 # Master's Thesis
-<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/VU_Logo.png" width="100" alt="VU Logo" />
-<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/Hyve_Logo.png" width="100" alt="Hyve Logo" />
+<span style="display: inline-block;">
+  <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/VU_Logo.png" width="100" alt="VU Logo" />
+</span>
+<span style="display: inline-block;">
+  <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/Hyve_Logo.png" width="100" alt="Hyve Logo" />
+</span>
 
 ### _OMOP CDM-Enabled Genomics Exploration: Unveiling Population Structure and PRS Associations from the Harvard Personal Genome Project_
 Jeren Olsen
