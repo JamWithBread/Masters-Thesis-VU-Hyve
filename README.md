@@ -34,7 +34,7 @@ Python, Java, Pandas, plotting libraries?
 | PostgreSQL | 14.8 | https://www.postgresql.org |
 Specific Java Version Required?
 
-## Data Availabilit
+## Data Availability
 
 - All 798 Harvard PGP participant study IDs can be found [here](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Resources/Harvard-PGP-798-profiles.txt).
 
