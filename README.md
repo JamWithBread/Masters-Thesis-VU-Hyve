@@ -35,3 +35,18 @@ Python, Java, Pandas, plotting libraries?
 Specific Java Version Required?
 
 ## Data Availability
+
+- All 798 Harvard PGP participant study IDs can be found [here](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Resources/Harvard-PGP-798-profiles.txt).
+
+- ClinVar Variants Summary download can be found [here](https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz).
+
+- NHANES Chronic diseases dataset can be found here:
+  - 2017-2018: [NHANES Dataset](https://wwwn.cdc.gov/Nchs/Nhanes/continuousnhanes/default.aspx?BeginYear=2017).
+
+- Reference Assemblies Used:
+  - GRCh37: [GRCh37 Assembly](http://grch37.ensembl.org/Homo_sapiens/Info/Index).
+  - GRCh36: [GRCh36 Assembly](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.12/).
+  - Chain file: [NCBI36_to_GRCh37.chain](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Resources/NCBI36_to_GRCh37.chain).
+
+- 1000 Genomes Reference Panel:
+  - Bref3 files: [1000 Genomes Bref3](https://bochet.gcc.biostat.washington.edu/beagle/1000_Genomes_phase3_v5a/b37.bref3/).
