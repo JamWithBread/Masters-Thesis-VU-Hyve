@@ -25,19 +25,26 @@ This repository contains all code developed for the completion of my master's th
 <a name="abstract"></a>
 ## Abstract
 With the increasing availability of detailed and diverse data types associated with patient profiles in health data repositories, there is a great opportunity to combine these data to allow for more comprehensive representations of patient profiles in large scale health research. In particular, the ability to include genomics data in federated analyses utilizing the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM) would be of great benefit. Therefore, this thesis project sought to identify modern genomics tools that could integrate well with the OMOP CDM for research studies leveraging both observational and genomic information. The Google Cloud Life Sciences API was identified to be fit for purpose due to its scalability, availability of an intuitive and open-source variant representation tool, integrated compute environment and excellent documentation. To demonstrate the utility of combining the OMOP CDM with GCP Life Sciences API, population structure analyses and a polygenic risk score (PRS) study were carried out on a study population derived from the Harvard Personal Genome Project. Separate ETL pipelines were applied to the electronic health record data and genomics data from the identified study population. An analysis methodology was developed leveraging the ATLAS cohort building tool alongside the transformed health data in the OMOP CDM and genomics data in Google’s BigQuery variant schema. Chronic disease prevalence was analyzed alongside occurrences of clinically significant variants with potential phenotype associations. Lastly, a cohort based PRS analysis was carried out to explore associations between polygenic profiles and occurrences of the Gastroesophageal Reflux Disease (GERD) phenotype. While no clinically significant variants with phenotype associations were found, a significant association between PRS and the GERD phenotype was discovered. In light of the growing interest in leveraging EHR data for comprehensive health research, this study contributes to the ongoing movement towards the integration of genetic and observational health data.
+
+<a name="acquiring-harvard-personal-genome-project-dataset---scraping"></a>
 ## Acquiring Harvard Personal Genome Project Dataset - Scraping
 
+<a name="transformation-pipelines"></a>
 ## Transformation Pipelines
 
+<a name="observational-health-data"></a>
 ### Observational Health Data
 
+<a name="genomics-data"></a>
 ### Genomics Data
 
+<a name="analysis-methods"></a>
 ## Analysis Methods
 
+<a name="summary-of-results"></a>
 ## Summary of Results
 
-
+<a name="software-used"></a>
 ## Software Used
 #### Genomics
 |Name|Version|Reference|
@@ -73,6 +80,7 @@ With the increasing availability of detailed and diverse data types associated w
 | Python | 3.11 | --- |
 | Pandas| 2.0 | --- |
 
+<a name="data-availability"></a>
 ## Data Availability
 
 - All 798 Harvard PGP participant study IDs can be found [here](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Resources/Harvard-PGP-798-profiles.txt).
