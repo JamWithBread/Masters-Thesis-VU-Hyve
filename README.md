@@ -10,7 +10,7 @@
 Jeren Olsen
 #
 ## About the Repository
-This repository contains all code developed for the completion of my master's thesis project completed at [The Hyve](https://www.thehyve.nl).
+This repository contains all code developed for the completion of my master's thesis project done at [The Hyve](https://www.thehyve.nl).
 ## Project Contents
 - [Abstract](#abstract)
 - [Acquiring Harvard Personal Genome Project Dataset - Scraping](#acquiring-harvard-personal-genome-project-dataset---scraping)
