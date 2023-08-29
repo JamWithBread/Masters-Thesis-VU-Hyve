@@ -51,6 +51,12 @@ Tool | Description
 
 <a name="genomics-data"></a>
 ### Genomics Data
+The genomics dataset acquired from the Harvard PGP site consisted of 202 assembly variations files sequenced by Complete Genomics and 595 genotyping files produced by 23andMe. To make these files comparable, a pipeline process was developed to convert the files to the same file format and genome build, perform genome imputation to place the files on a common set of markers, and apply data filtering where appropriate. Quality checks, such as concordance measures, were also made to give an indication of reliability of the chosen processing strategy. A distribured workload approach was used to execute the pipeline outlined below, using Google Cloud's compute environment. 
+See [Genomics_Pipeline_GH_gcp](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/tree/main/Genomics_Pipeline_GH_gcp) for implementation. 
+**Genomics Pipeline Workflow**
+<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/Genomics%20Pipeline.png"/>
+
+**Google Variant Transform Tool**
 
 <a name="analysis-methods"></a>
 ## Analysis Methods
