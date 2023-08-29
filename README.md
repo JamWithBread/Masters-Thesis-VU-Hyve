@@ -44,9 +44,9 @@ The observational health data underwent transformation via the source data to OM
 ![OHDSI Tools](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/OHDSI%20Tools.png)
 Tool | Description
 --- | ---
-**White Rabbit** | Scan report of source data. Summary statistics. Understand data in context of OMOP CDM.
-**Rabbit in a Hat** | Visual mapping of source to target tables. Aids in transformation writing process.
-**Usagi** | Semantic source vocab to target vocab mappings. Uses Athena CDM 5.4 standard vocabularies.
+**White Rabbit** | Scan report of source data. Provides summary statistics and helps understand source data in context of OMOP CDM.
+**Rabbit in a Hat** | Creates visual mapping of source to target tables. Aids in transformation writing process.
+**Usagi** | Generates semantic source vocab to target vocab mappings using Athena CDM 5.4 standard vocabularies.
 **Delphyne** | Python program to write specific source table to target transformations using outputs from previous tools. Targets PostgreSQL database: The OMOP CDM.
 
 <a name="genomics-data"></a>
