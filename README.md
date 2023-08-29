@@ -51,14 +51,23 @@ Tool | Description
 
 <a name="genomics-data"></a>
 ### Genomics Data
-The genomics dataset acquired from the Harvard PGP site consisted of 202 assembly variations files sequenced by Complete Genomics and 595 genotyping files produced by 23andMe. To make these files comparable, a pipeline process was developed to convert the files to the same file format and genome build, perform genome imputation to place the files on a common set of markers, and apply data filtering where appropriate. Quality checks, such as concordance measures, were also made to give an indication of reliability of the chosen processing strategy. A distribured workload approach was used to execute the pipeline outlined below, using Google Cloud's compute environment. 
+The genomics dataset acquired from the Harvard PGP site consisted of 202 assembly variations files sequenced by Complete Genomics and 595 genotyping files produced by 23andMe. To make these files comparable, a pipeline process was developed to convert the files to the same file format and genome build, perform genome imputation to place the files on a common set of markers, and apply data filtering where appropriate. Quality checks, such as concordance measures, were also made to give an indication of reliability of the chosen processing strategy. A distributed workload approach was used to execute the pipeline outlined below, using Google Cloud's Compute environment. 
 
 See [Genomics_Pipeline_GH_gcp](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/tree/main/Genomics_Pipeline_GH_gcp) for implementation.
 
 **Genomics Pipeline Workflow**
 <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/Genomics%20Pipeline.png"/><br><br>
 
-**Google Variant Transform Tool**
+**Variant Transforms Tool**
+<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/gcp-variant-transforms.png"/> [Repo](https://github.com/googlegenomics/gcp-variant-transforms), [More Info](https://cloud.google.com/life-sciences/docs/how-tos/variant-transforms)
+Google's Variant Transforms Tool was selected as most fit for purpose for the variant analysis endeavors carried out in this project, and further as a tool that is generally well suited for research at the intersection of observational health outcomes and genomics using the OMOP CDM. It was selected due to the following traits:
+- Patient-centric
+- Open-source
+- Implementation accessible to novice researchers
+- Scalable 
+- Well documented and maintained
+- Not restrictive in scope of genomics data
+
 
 <a name="analysis-methods"></a>
 ## Analysis Methods
