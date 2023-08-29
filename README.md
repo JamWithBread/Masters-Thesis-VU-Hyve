@@ -60,7 +60,7 @@ See [Genomics_Pipeline_GH_gcp](https://github.com/JamWithBread/Masters-Thesis-VU
 
 **Variant Transforms Tool**
 
-<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/gcp-variant-transforms.png" width="220" /> 
+<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/gcp-variant-transforms.png" width="250" /> 
 
 | [Repo](https://github.com/googlegenomics/gcp-variant-transforms) | [More Info](https://cloud.google.com/life-sciences/docs/how-tos/variant-transforms) |
 
