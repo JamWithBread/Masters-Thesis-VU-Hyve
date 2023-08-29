@@ -5,9 +5,9 @@
 
 ## How they work
 <span style="display: inline-block;">
-  <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/23andMe-to-vcf.png" width="400" />
+  <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/23andMe-to-vcf.png" width="700" />
 </span>
 <span style="display: inline-block;">
-  <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/CG-to-VCF.png" width="400" />
+  <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/CG-to-VCF.png" width="700" />
 </span>
 
