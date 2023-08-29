@@ -56,7 +56,7 @@ The genomics dataset acquired from the Harvard PGP site consisted of 202 assembl
 See [Genomics_Pipeline_GH_gcp](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/tree/main/Genomics_Pipeline_GH_gcp) for implementation.
 
 **Genomics Pipeline Workflow**
-<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/Genomics%20Pipeline.png"/><br><br>
+<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/Genomics%20Pipeline.png"  width="350" /><br><br>
 
 **Variant Transforms Tool**
 
