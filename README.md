@@ -72,6 +72,10 @@ Google's Variant Transforms Tool was selected as most fit for purpose for the va
 - Well documented and maintained
 - Not restrictive in scope of genomics data
 
+See [Google Variant Transform Tool](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/tree/main/Google%20Variant%20Transform%20Tool) for implementation.
+
+Note that the tool was used under the Google Life Sciences API, which has been scheduled for deprecation. The tool has migrated to Google Batch service.
+
 
 <a name="analysis-methods"></a>
 ## Analysis Methods
