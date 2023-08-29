@@ -59,7 +59,9 @@ See [Genomics_Pipeline_GH_gcp](https://github.com/JamWithBread/Masters-Thesis-VU
 <img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/Genomics%20Pipeline.png"/><br><br>
 
 **Variant Transforms Tool**
-<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/gcp-variant-transforms.png"/> [Repo](https://github.com/googlegenomics/gcp-variant-transforms), [More Info](https://cloud.google.com/life-sciences/docs/how-tos/variant-transforms)
+
+<img src="https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Logos/gcp-variant-transforms.png" width="200" /> [Repo](https://github.com/googlegenomics/gcp-variant-transforms), [More Info](https://cloud.google.com/life-sciences/docs/how-tos/variant-transforms)
+
 Google's Variant Transforms Tool was selected as most fit for purpose for the variant analysis endeavors carried out in this project, and further as a tool that is generally well suited for research at the intersection of observational health outcomes and genomics using the OMOP CDM. It was selected due to the following traits:
 - Patient-centric
 - Open-source
