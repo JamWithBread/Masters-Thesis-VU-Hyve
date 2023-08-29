@@ -34,9 +34,27 @@ For this project, an open-source dataset was curated from the [Harvard Personal 
 
 <a name="transformation-pipelines"></a>
 ## Transformation Pipelines
+To prepare the genomics and observational health data for analysis, respective transformation pipelines were applied.
 
 <a name="observational-health-data"></a>
 ### Observational Health Data
+The observational health data underwent transformation via the source data to OMOP CDM ETL process; a pipeline involving a suite of open-source tools for generating an ETL outline, mapping source vocabulary to standard vocabularies, applying the transformations and targeting a standardized database schema.
+
+#### OHDSI ETL Tools
+![OHDSI Tools](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/Images%3AIllustrations/Schematics/OHDSI%20Tools.png)
+
+**White Rabbit** -> Scan report of source data 
+- Summary statistics 
+- Understand data in context of OMOP CDM
+
+**Rabbit in a Hat** -> Visual mapping of source to target tables
+- Aids in transformation writing process
+
+**Usagi** -> Semantic source vocab to target vocab mappings
+- Uses Athena CDM 5.4 standard vocabularies
+
+**Delphyne** -> Python program to write specific source table to target transformations using outputs from previous tools
+- Targets PostgreSQL database: The OMOP CDM
 
 <a name="genomics-data"></a>
 ### Genomics Data
