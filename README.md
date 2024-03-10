@@ -80,11 +80,11 @@ Note that the tool was used under the Google Life Sciences API, which has been s
 
 <a name="analysis-methods"></a>
 ## Analysis Methods
-- See section **2.Methods** of [Thesis](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/BSB_Masters_Thesis_JerenOlsen.pdf)
+- See section **2. Methods** of [Thesis](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/BSB_Masters_Thesis_JerenOlsen.pdf)
 
 <a name="summary-of-results"></a>
 ## Summary of Results
-- See section **3.Results** of [Thesis](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/BSB_Masters_Thesis_JerenOlsen.pdf)
+- See section **3. Results** of [Thesis](https://github.com/JamWithBread/Masters-Thesis-VU-Hyve/blob/main/BSB_Masters_Thesis_JerenOlsen.pdf)
 
 <a name="software-used"></a>
 ## Software Used
